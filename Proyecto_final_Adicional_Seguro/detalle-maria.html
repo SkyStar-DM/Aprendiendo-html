@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicional Seguro - Detalle: María López</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header class="encabezado-principal">
+        <div class="contenedor-encabezado">
+            <a href="solicitudes-medicas.html" class="marca">
+                <span class="icono-escudo"><img src="logo-adicional-seguro.png" alt="Logo Adicional Seguro"></span>
+                <span class="nombre-marca">Adicional Seguro</span>
+            </a>
+
+            <details class="area-usuario">
+                <summary class="boton-menu">Dr. García ☰</summary>
+                <nav class="menu-desplegable activo">
+                    <div class="info-usuario-menu">
+                        <p class="nombre-usuario-menu">Dr. García</p>
+                        <p class="rol-usuario-menu">Personal Médico</p>
+                    </div>
+                    <ul>
+                        <li><a href="solicitudes-medicas.html">📋 Solicitudes médicas</a></li>
+                        <li><a href="index.html" class="enlace-cerrar-sesion">🚪 Cerrar sesión</a></li>
+                    </ul>
+                </nav>
+            </details>
+        </div>
+    </header>
+
+    <main class="contenido-principal">
+        <div class="contenedor-tarjeta">
+
+            <section class="pantalla activo">
+
+                <div class="barra-superior">
+                    <a href="solicitudes-medicas.html" class="boton-volver">← Volver a solicitudes</a>
+                </div>
+
+                <h2 class="titulo-pantalla">Detalle de solicitud médica</h2>
+
+                <div class="tarjeta-detalle">
+                    <p class="titulo-seccion-tarjeta">DATOS DE LA SOLICITUD</p>
+                    <div class="fila-dato"><span class="nombre-dato">Paciente</span><span class="valor-dato">María López</span></div>
+                    <div class="fila-dato"><span class="nombre-dato">DNI</span><span class="valor-dato">87654321</span></div>
+                    <div class="fila-dato"><span class="nombre-dato">Especialidad</span><span class="valor-dato">Medicina Interna</span></div>
+                    <div class="fila-dato"><span class="nombre-dato">Fecha solicitada</span><span class="valor-dato">25/09/2026</span></div>
+                    <div class="fila-dato sin-borde"><span class="nombre-dato">Horario solicitado</span><span class="valor-dato">10:30 a. m.</span></div>
+
+                    <p class="titulo-seccion-tarjeta margen-superior">PRIORIDAD DE ATENCIÓN</p>
+                    <div class="caja-prioridad"><span class="insignia insignia-media">MEDIA</span> <span class="texto-prioridad">Prioridad Media</span></div>
+
+                    <p class="titulo-seccion-tarjeta margen-superior">MOTIVO DE LA SOLICITUD</p>
+                    <p class="caja-motivo">Evaluación por presión arterial elevada constante.</p>
+
+                    <p class="titulo-seccion-tarjeta margen-superior">ESTADO DE LA SOLICITUD</p>
+                    <div>
+                        <span class="insignia insignia-pendiente">PENDIENTE</span>
+                    </div>
+                </div>
+
+                <div class="grupo-botones-accion">
+                    <a href="solicitud-aceptada.html" class="boton boton-verde">✔ ACEPTAR SOLICITUD</a>
+                    <a href="solicitud-rechazada.html" class="boton boton-rojo">✖ DENEGAR SOLICITUD</a>
+                </div>
+
+                <div class="fila-acciones margen-superior">
+                    <a href="solicitudes-medicas.html" class="boton boton-contorno">VOLVER A SOLICITUDES</a>
+                </div>
+
+            </section>
+
+        </div>
+    </main>
+
+</body>
+</html>

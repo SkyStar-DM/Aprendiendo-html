@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicional Seguro - Menú del Paciente</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header class="encabezado-principal">
+        <div class="contenedor-encabezado">
+            <a href="menu-paciente.html" class="marca">
+                <span class="icono-escudo"><img src="logo-adicional-seguro.png" alt="Logo Adicional Seguro"></span>
+                <span class="nombre-marca">Adicional Seguro</span>
+            </a>
+
+            <details class="area-usuario">
+                <summary class="boton-menu">Juan Pérez ☰</summary>
+
+                <nav class="menu-desplegable activo">
+                    <div class="info-usuario-menu">
+                        <p class="nombre-usuario-menu">Juan Pérez</p>
+                        <p class="rol-usuario-menu">Paciente</p>
+                    </div>
+                    <ul>
+                        <li><a href="menu-paciente.html">🏠 Menú Principal</a></li>
+                        <li><a href="solicitar-cita.html">📅 Solicitar cita adicional</a></li>
+                        <li><a href="estado-solicitud.html">📄 Estado de solicitud</a></li>
+                        <li><a href="perfil-paciente.html">👤 Perfil del paciente</a></li>
+                        <li><a href="index.html" class="enlace-cerrar-sesion">🚪 Cerrar sesión</a></li>
+                    </ul>
+                </nav>
+            </details>
+        </div>
+    </header>
+
+    <main class="contenido-principal">
+        <div class="contenedor-tarjeta">
+
+            <section class="pantalla activo">
+
+                <div class="tarjeta-bienvenida">
+                    <div>
+                        <h2 class="nombre-usuario">Bienvenido, Juan Pérez</h2>
+                        <p class="estado-usuario">Paciente registrado - Medicina Interna</p>
+                    </div>
+                    <span class="insignia insignia-destacado">DNI: 12345678</span>
+                </div>
+
+                <h3 class="subtitulo-seccion">¿Qué trámite deseas realizar hoy?</h3>
+
+                <div class="cuadricula-menu">
+                    <a href="solicitar-cita.html" class="opcion-menu">
+                        <span class="icono-opcion">📅</span>
+                        <span class="titulo-opcion">Solicitar cita adicional</span>
+                        <span class="descripcion-opcion">Registra una solicitud para evaluación</span>
+                    </a>
+                    <a href="estado-solicitud.html" class="opcion-menu">
+                        <span class="icono-opcion">📄</span>
+                        <span class="titulo-opcion">Estado de solicitud</span>
+                        <span class="descripcion-opcion">Revisa si fue aceptada o rechazada</span>
+                    </a>
+                    <a href="perfil-paciente.html" class="opcion-menu">
+                        <span class="icono-opcion">👤</span>
+                        <span class="titulo-opcion">Perfil del paciente</span>
+                        <span class="descripcion-opcion">Verifica tus datos personales</span>
+                    </a>
+                </div>
+
+            </section>
+
+        </div>
+    </main>
+
+</body>
+</html>

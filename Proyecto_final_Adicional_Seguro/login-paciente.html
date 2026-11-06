@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicional Seguro - Login Paciente</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header class="encabezado-principal">
+        <div class="contenedor-encabezado">
+            <a href="index.html" class="marca">
+                <span class="icono-escudo"><img src="logo-adicional-seguro.png" alt="Logo Adicional Seguro"></span>
+                <span class="nombre-marca">Adicional Seguro</span>
+            </a>
+        </div>
+    </header>
+
+    <main class="contenido-principal">
+        <div class="contenedor-tarjeta">
+
+            <section class="pantalla activo">
+
+                <div class="barra-superior">
+                    <a href="index.html" class="boton-volver">← Volver al inicio</a>
+                </div>
+
+                <form class="contenedor-formulario" action="menu-paciente.html">
+                    <h2 class="titulo-pantalla">Inicio de sesión - Paciente</h2>
+                    <p class="texto-instruccion">Ingresa con tu DNI y contraseña registrada</p>
+
+                    <div class="grupo-formulario">
+                        <label for="dni">DNI</label>
+                        <input type="text" id="dni" placeholder="Ingresa tu DNI" value="12345678" required pattern="[0-9]{8}" maxlength="8" inputmode="numeric" title="Ingresa los 8 dígitos de tu DNI">
+
+                    </div>
+
+                    <div class="grupo-formulario">
+                        <label for="clave">Contraseña</label>
+                        <input type="password" id="clave" placeholder="Ingresa tu contraseña" value="••••••••"required minlength="6" title="La contraseña debe tener al menos 6 caracteres">
+                    </div>
+
+                    <button type="submit" class="boton boton-primario">INGRESAR</button>
+                    <a href="#" class="olvido-clave">¿Olvidaste tu contraseña?</a>
+                </form>
+
+            </section>
+
+        </div>
+    </main>
+
+</body>
+</html>

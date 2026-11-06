@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicional Seguro - Solicitudes Médicas</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header class="encabezado-principal">
+        <div class="contenedor-encabezado">
+            <a href="solicitudes-medicas.html" class="marca">
+                <span class="icono-escudo"><img src="logo-adicional-seguro.png" alt="Logo Adicional Seguro"></span>
+                <span class="nombre-marca">Adicional Seguro</span>
+            </a>
+
+            <details class="area-usuario">
+                <summary class="boton-menu">Dr. García ☰</summary>
+                <nav class="menu-desplegable activo">
+                    <div class="info-usuario-menu">
+                        <p class="nombre-usuario-menu">Dr. García</p>
+                        <p class="rol-usuario-menu">Personal Médico</p>
+                    </div>
+                    <ul>
+                        <li><a href="solicitudes-medicas.html">📋 Solicitudes médicas</a></li>
+                        <li><a href="index.html" class="enlace-cerrar-sesion">🚪 Cerrar sesión</a></li>
+                    </ul>
+                </nav>
+            </details>
+        </div>
+    </header>
+
+    <main class="contenido-principal">
+        <div class="contenedor-tarjeta">
+
+            <section class="pantalla activo">
+
+                <div class="barra-superior">
+                    <span class="texto-subtitulo">Panel Médico - 3 solicitudes pendientes</span>
+                </div>
+
+                <h2 class="titulo-pantalla">Solicitudes médicas enviadas</h2>
+
+                <div class="cuadricula-solicitudes">
+
+                    <article class="tarjeta-solicitud">
+                        <div class="datos-solicitud">
+                            <div>
+                                <p class="nombre-paciente">Juan Pérez</p>
+                                <p class="especialidad-paciente">Medicina Interna</p>
+                                <p class="fecha-solicitud">25/09/2026 - 09:00 am</p>
+                            </div>
+                            <span class="insignia insignia-alta">ALTA</span>
+                        </div>
+                        <a href="detalle-juan.html" class="boton boton-celeste-chico">VER DETALLE</a>
+                    </article>
+
+                    <article class="tarjeta-solicitud">
+                        <div class="datos-solicitud">
+                            <div>
+                                <p class="nombre-paciente">María López</p>
+                                <p class="especialidad-paciente">Medicina Interna</p>
+                                <p class="fecha-solicitud">25/09/2026 - 10:30 am</p>
+                            </div>
+                            <span class="insignia insignia-media">MEDIA</span>
+                        </div>
+                        <a href="detalle-maria.html" class="boton boton-celeste-chico">VER DETALLE</a>
+                    </article>
+
+                    <article class="tarjeta-solicitud">
+                        <div class="datos-solicitud">
+                            <div>
+                                <p class="nombre-paciente">Carlos Ramos</p>
+                                <p class="especialidad-paciente">Medicina Interna</p>
+                                <p class="fecha-solicitud">26/09/2026 - 08:00 am</p>
+                            </div>
+                            <span class="insignia insignia-baja">BAJA</span>
+                        </div>
+                        <a href="detalle-carlos.html" class="boton boton-celeste-chico">VER DETALLE</a>
+                    </article>
+
+                </div>
+
+            </section>
+
+        </div>
+    </main>
+
+</body>
+</html>

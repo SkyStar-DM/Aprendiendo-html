@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicional Seguro - Solicitar Cita</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header class="encabezado-principal">
+        <div class="contenedor-encabezado">
+            <a href="menu-paciente.html" class="marca">
+                <span class="icono-escudo"><img src="logo-adicional-seguro.png" alt="Logo Adicional Seguro"></span>
+                <span class="nombre-marca">Adicional Seguro</span>
+            </a>
+
+            <details class="area-usuario">
+                <summary class="boton-menu">Juan Pérez ☰</summary>
+                <nav class="menu-desplegable activo">
+                    <div class="info-usuario-menu">
+                        <p class="nombre-usuario-menu">Juan Pérez</p>
+                        <p class="rol-usuario-menu">Paciente</p>
+                    </div>
+                    <ul>
+                        <li><a href="menu-paciente.html">🏠 Menú Principal</a></li>
+                        <li><a href="solicitar-cita.html">📅 Solicitar cita adicional</a></li>
+                        <li><a href="estado-solicitud.html">📄 Estado de solicitud</a></li>
+                        <li><a href="perfil-paciente.html">👤 Perfil del paciente</a></li>
+                        <li><a href="index.html" class="enlace-cerrar-sesion">🚪 Cerrar sesión</a></li>
+                    </ul>
+                </nav>
+            </details>
+        </div>
+    </header>
+
+    <main class="contenido-principal">
+        <div class="contenedor-tarjeta">
+
+            <section class="pantalla activo">
+
+                <div class="barra-superior">
+                    <a href="menu-paciente.html" class="boton-volver">← Volver al menú</a>
+                </div>
+
+                <form class="contenedor-formulario" action="estado-solicitud.html">
+                    <h2 class="titulo-pantalla">Solicitar cita adicional</h2>
+
+                    <div class="grupo-formulario">
+                        <label for="especialidad">Selecciona la especialidad</label>
+                        <select id="especialidad">
+                            <option>Medicina Interna</option>
+                        </select>
+                    </div>
+
+                    <div class="grupo-formulario">
+                        <label for="fecha">Selecciona la fecha</label>
+                        <input type="date" id="fecha" name="fecha" value="2026-10-20" min="2026-10-19" required title="Selecciona una fecha desde hoy en adelante">
+                    </div>
+
+                    <div class="grupo-formulario">
+                        <label for="horario">Selecciona el horario</label>
+                        <select id="horario">
+                            <option>10:00 a. m.</option>
+                            <option>10:30 a. m.</option>
+                            <option>11:00 a. m.</option>
+                        </select>
+                    </div>
+
+                    <div class="grupo-formulario">
+                        <label for="motivo">Motivo de la solicitud</label>
+                        <textarea id="motivo" placeholder="Escribe brevemente el motivo de tu solicitud">Seguimiento médico</textarea>
+                    </div>
+
+                    <div class="fila-acciones">
+                        <a href="menu-paciente.html" class="boton boton-contorno">Cancelar</a>
+                        <button type="submit" class="boton boton-primario">ENVIAR SOLICITUD</button>
+                    </div>
+                </form>
+
+            </section>
+
+        </div>
+    </main>
+
+</body>
+</html>
