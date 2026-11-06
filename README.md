@@ -11,5 +11,8 @@ Estructura básica, listas, énfasis, estilos con clases, imágenes.
 ### Semana 2 - Sesión 1
 Etiquetas semánticas: `header`, `nav`, `main`, `article`, `aside`, `footer`.
 
+### Proyecto final – Adicional Seguro
+Sitio web de citas médicas adicionales: 13 páginas HTML con CSS externo, imágenes y video. [Ver carpeta](Proyecto_final_Adicional_Seguro)
+
 ## Próximos pasos
-CSS → JavaScript → más proyectos de Git/GitHub
+JavaScript → más proyectos de Git/GitHub
